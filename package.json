@@ -1,0 +1,29 @@
+{
+  "name": "node-spelling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -t 5000 ./index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmouterde/node-spelling.git"
+  },
+  "keywords": [
+    "spelling",
+    "grammar",
+    "hunspell",
+    "languagetool"
+  ],
+  "author": "mmouterde",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bluebird-queue": "^0.0.8"
+  }
+}
